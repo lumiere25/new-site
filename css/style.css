@@ -1,0 +1,195 @@
+
+body {
+  background: url('/img/bg-image.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.heading {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.heading h1 {
+  color:#e76cc2;
+}
+
+h2 {
+  color: rgb(189, 74, 131);
+}
+#clg-logo {
+  width: 40%;
+}
+
+#image {
+ padding-left: 10px;
+ border-radius: 50%;
+ height: 200px;
+ width: 150px;
+ border: dotted 12px firebrick 
+}
+
+#image-2 {
+  position: relative;
+  left: 75%;
+
+  padding-right: 10px;
+  border-radius: 50%;
+  height: 200px;
+  width: 150px;
+  border: dotted 12px firebrick 
+}
+
+.container-2 {
+  border: solid 10px rgb(84, 153, 84);
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+
+.container-div-1 {
+  background-color: turquoise;
+  width: 50%;
+  margin-left: 25%;
+  border: 3px inset;
+  border-color: #ff0000 #800080 #ffc0cb #ffff00;
+  border-width: 8px;
+}
+
+
+
+ /* padding effects: 8px (top & bottom) 20px (left & right) of the border */
+.wrapper {
+  padding: 8px 30px;
+  text-align: center;
+}
+
+/* The actual content */
+.wrapper-div {
+  border: dashed 8px rgb(233, 132, 106);
+  font-family: 'roboto';
+  background-color: rgb(230, 195, 165);
+  padding: 30px;
+  height: 300px;
+  width: 600px;
+  margin: auto 0;
+}
+ 
+/* Styles the container */
+.container-div-2 {
+   display: flex;
+   justify-content: center;
+   padding: 50px 20px;
+ }
+
+ /* Styles border and content */
+
+.wrapper-wrap {
+  border: outset hotpink;
+  border-width: 10px;
+  text-align: center;
+  background: #fff;
+  width: 50%;
+  padding: 10px 30px;
+
+}
+
+
+.wrapper-div-3 {
+  background-color:#4cb241;
+}
+/* background container that holds the content */
+.container-div-3 {
+  display: flex;
+  justify-content: center;
+  background-image: url('/img/mountains.jpg');
+  padding: 50px 20px;
+  
+}
+
+.container-four {
+  border: solid 7px hotpink;
+}
+
+.wrapper-div-four {
+  position: static;
+  background: orange;
+  /* padding of 8px stretches out the background to the width of container */
+  padding: 8px;
+}
+
+/* parent element has a border with a background fill*/
+.parent {
+ border: solid rgb(110, 85, 147);
+ background: rgb(110, 85, 147);
+}
+
+/* child has position of relative */
+.child-one {
+  position: relative;
+  left: 30px;
+  top: 5px;
+  color: rgb(136, 60, 98);
+  background: orange;
+  padding: 6px;
+}
+
+.parent-two {
+  position: relative;
+  border: solid #ff0000;
+  background: red;
+  padding: 6px;
+}
+
+#child {
+  position: absolute;
+  background: rgb(72, 53, 129);
+  color: #fff;
+}
+
+.parent-three {
+  border: solid #ff0000;
+  background:#4cb241;
+  width: 100%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.child-three {
+  position: fixed;
+  bottom: 0;
+  font-size: 30px;
+  color:#ff0000
+
+}
+
+span {
+  color: rgb(110, 21, 65);
+}
+
+sup {
+  color: hotpink;
+}
+
+sub {
+  color: rgb(110, 21, 65);
+}
+
+/* standalone tags */
+del {
+  color:#800080;
+}
+
+ins {
+  color:#39c529;
+}
+
+/* This is the descendant selector */
+div p {
+  color: blue;
+}
+
+/* This is the child selector */
+ul > li {
+  color: red;
+}
